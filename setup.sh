@@ -19,29 +19,29 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Link Hosting You For Ssh Vpn
-sshlink="raw.githubusercontent.com/Gl33ch3r/cfsshws/main/ssh"
+sshlink="raw.githubusercontent.com/andresslacson1989/wsopenvpn/main/ssh"
 # Link Hosting You For Sstp
-# gl33chervpnn="raw.githubusercontent.com/Gl33ch3r/cfsshws/main/sstp"
+# gl33chervpnn="raw.githubusercontent.com/andresslacson1989/wsopenvpn/main/sstp"
 # Link Hosting You For Ssr
-# gl33chervpnnn="raw.githubusercontent.com/Gl33ch3r/cfsshws/main/ssr"
+# gl33chervpnnn="raw.githubusercontent.com/andresslacson1989/wsopenvpn/main/ssr"
 # Link Hosting You For Shadowsocks
-# gl33chervpnnnn="raw.githubusercontent.com/Gl33ch3r/cfsshws/main/shadowsocks"
+# gl33chervpnnnn="raw.githubusercontent.com/andresslacson1989/wsopenvpn/main/shadowsocks"
 # Link Hosting You For Wireguard
-# gl33chervpnnnnn="raw.githubusercontent.com/Gl33ch3r/cfsshws/main/wireguard"
+# gl33chervpnnnnn="raw.githubusercontent.com/andresslacson1989/wsopenvpn/main/wireguard"
 # Link Hosting You For Xray
-xraylink="raw.githubusercontent.com/Gl33ch3r/cfsshws/main/xray"
+xraylink="raw.githubusercontent.com/andresslacson1989/wsopenvpn/main/xray"
 # Link Hosting You For Ipsec
-# gl33chervpnnnnnnn="raw.githubusercontent.com/Gl33ch3r/cfsshws/main/ipsec"
+# gl33chervpnnnnnnn="raw.githubusercontent.com/andresslacson1989/wsopenvpn/main/ipsec"
 # Link Hosting You For Backup
-backuplink="raw.githubusercontent.com/Gl33ch3r/cfsshws/main/backup"
+backuplink="raw.githubusercontent.com/andresslacson1989/wsopenvpn/main/backup"
 # Link Hosting You For Websocket
-websocketlink="raw.githubusercontent.com/Gl33ch3r/cfsshws/main/websocket"
+websocketlink="raw.githubusercontent.com/andresslacson1989/wsopenvpn/main/websocket"
 # Link Hosting You For Ohp
-ohplink="raw.githubusercontent.com/Gl33ch3r/cfsshws/main/ohp"
+ohplink="raw.githubusercontent.com/andresslacson1989/wsopenvpn/main/ohp"
 # link Hosting update
-updatelink="raw.githubusercontent.com/Gl33ch3r/cfsshws/main/update"
+updatelink="raw.githubusercontent.com/andresslacson1989/wsopenvpn/main/update"
 # link Hosting sslh-fix
-sslhlink="raw.githubusercontent.com/Gl33ch3r/cfsshws/main/sslh-fix"
+sslhlink="raw.githubusercontent.com/andresslacson1989/wsopenvpn/main/sslh-fix"
 
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
@@ -117,7 +117,7 @@ echo "1.2" > /home/ver
 echo " "
 echo "Installation has been completed!!"
 echo " "
-echo "=================================-Gl33ch3r Project-===========================" | tee -a log-install.txt
+echo "=================================-VPN Project-===========================" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
 echo "----------------------------------------------------------------------------" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
@@ -157,7 +157,7 @@ echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "---------------------- Script Mod By Gl33ch3r ----------------------" | tee -a log-install.txt
+echo "---------------------- Script Mod By AkoSiBytes ----------------------" | tee -a log-install.txt
 echo ""
 echo " Reboot 15 Sec"
 sleep 15
