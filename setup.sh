@@ -45,13 +45,13 @@ sslhlink="raw.githubusercontent.com/andresslacson1989/wsopenvpn/main/sslh-fix"
 
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
-ALLOWEDIP=$(curl https://raw.githubusercontent.com/Gl33ch3r/cfsshws/main/ipvps.txt | grep $MYIP)
+ALLOWEDIP=$(curl https://raw.githubusercontent.com/andresslacson1989/wsopenvpn/main/ipvps.txt | grep $MYIP)
 if [[ $MYIP == $ALLOWEDIP ]]; then
 echo -e "${NC}${GREEN}Permission Accepted...${NC}"
 else
 echo -e "${NC}${RED}Permission Denied!${NC}";
 echo -e "${NC}${LIGHT}Please Contact Admin!!"
-echo -e "${NC}${LIGHT}Telegram : https://t.me/Gonfreecs600"
+echo -e "${NC}${LIGHT}Telegram : https://t.me/JuanFelipe"
 exit 0
 fi
 clear
